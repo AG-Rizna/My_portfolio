@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A.G. Rizna | Aspiring Software Engineer</title>
+<meta name="description" content="Portfolio of A.G. Rizna, an ICT undergraduate and aspiring software engineer from the University of Vavuniya, showcasing software projects, technical skills, UI/UX designs, certifications, and technology community experience." />
+<meta property="og:title" content="A.G. Rizna | Aspiring Software Engineer" />
+<meta property="og:description" content="ICT undergraduate & aspiring software engineer — projects, skills, UI/UX work and certifications." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-bg"></div>
+
+<!-- NAVBAR -->
+<div class="navwrap">
+  <nav class="navbar">
+    <div class="logo">Rizna</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#certificates" class="nav-link">Certificates</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Let's Talk</a>
+    <button class="burger" id="burger" aria-label="Toggle menu">☰</button>
+  </nav>
+</div>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="mobile-cta">Let's Talk</a>
+</div>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-grid">
+    <div>
+      <div class="hero-label"> Hello, I'm</div>
+      <h1>Hi, I'm <span class="gradient-text">Rizna</span></h1>
+      <div class="hero-role">I'm a <span id="typedRole"></span><span class="cursor">&nbsp;</span></div>
+      <p class="desc">I'm an ICT undergraduate passionate about software development, problem solving, and building meaningful digital experiences. I enjoy turning ideas into practical applications while continuously learning new technologies.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">VIEW MY PROJECTS</a>
+        <a href="#contact" class="btn btn-ghost">LET'S CONNECT</a>
+      </div>
+      <div class="hero-social">
+        <a class="social-icon" href="https://www.linkedin.com/in/rizna-abdul-gafoor" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A6 6 0 0 1 16 8Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a class="social-icon" href="https://github.com/AG-Rizna" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+        </a>
+        <a class="social-icon" href="mailto:riznaag2003@gmail.com" title="Email" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-portrait">
+      <div class="portrait-glow"></div>
+      <div class="leaf-orbit leaf-orbit-2">
+        <span class="leaf"></span><span class="leaf"></span><span class="leaf"></span>
+        <span class="leaf"></span><span class="leaf"></span><span class="leaf"></span>
+      </div>
+      <div class="leaf-orbit">
+        <span class="leaf"></span><span class="leaf"></span><span class="leaf"></span>
+        <span class="leaf"></span><span class="leaf"></span><span class="leaf"></span>
+      </div>
+      <div class="portrait-frame">
+        <img src="C:\Users\2022icts120\Desktop\My_portfolio-main\My_portfolio-main\portfolio\Profile_Pic.png" alt="Portrait of A.G. Rizna" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-strip reveal">
+  <div class="stat-card">
+    <div class="icon">🎓</div>
+    <h4>ICT Undergraduate</h4>
+    <p>University of Vavuniya</p>
+  </div>
+  <div class="stat-card">
+    <div class="icon">💻</div>
+    <h4>Multiple Projects</h4>
+    <p>Software · Web · UI/UX</p>
+  </div>
+  <div class="stat-card">
+    <div class="icon">🤝</div>
+    <h4>Technology Community</h4>
+    <p>Leadership · Events · Collaboration</p>
+  </div>
+  <div class="stat-card">
+    <div class="icon">📚</div>
+    <h4>Continuous Learner</h4>
+    <p>Courses · Workshops · Certifications</p>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="center reveal">
+    <div class="eyebrow" style="justify-content:center;">Get to know me</div>
+    <h2 class="heading-lg">About <span class="gradient-text">Me</span></h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="fan-wrap reveal">
+      <div class="fan-glow"></div>
+      <img src="C:\Users\2022icts120\Desktop\My_portfolio-main\My_portfolio-main\portfolio\sakura-fan.png" alt="Decorative Japanese folding fan illustration" class="fan-img" />
+    </div>
+
+    <div class="reveal">
+      <p class="text-soft" style="line-height:1.85; margin-bottom:16px;">I am an Information and Communication Technology undergraduate at the University of Vavuniya with a strong interest in software engineering and technology.</p>
+      <p class="text-soft" style="line-height:1.85; margin-bottom:16px;">I enjoy learning programming concepts, developing practical applications, designing user interfaces, and exploring modern technologies.</p>
+      <p class="text-soft" style="line-height:1.85; margin-bottom:16px;">My journey includes hands-on experience with programming languages such as Python, Java, C, C++, and C#, along with web technologies, databases, UI/UX design, GitHub, and Docker.</p>
+      <p class="text-soft" style="line-height:1.85; margin-bottom:16px;">Beyond technical development, I actively participate in university technology communities and events, where I have developed skills in leadership, communication, teamwork, event coordination, and collaboration.</p>
+      <p class="text-soft" style="line-height:1.85;">My goal is to continuously improve my technical and professional skills and eventually contribute to building reliable, useful, and innovative software solutions.</p>
+
+      <div class="info-cards">
+        <div class="info-card"><h5>ICT Undergraduate</h5><p>University of Vavuniya</p></div>
+        <div class="info-card"><h5>Multiple Projects</h5><p>Software · Web · UI/UX</p></div>
+        <div class="info-card"><h5>Tech Community</h5><p>Leadership · Events</p></div>
+        <div class="info-card"><h5>Continuous Learner</h5><p>Courses · Workshops</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="philosophy-grid">
+    <div class="glass-card reveal">
+      <div class="eyebrow">My Philosophy</div>
+      <p class="quote">"Keep learning, keep building, and turn ideas into meaningful digital solutions."</p>
+    </div>
+    <div class="glass-card reveal">
+      <div class="eyebrow">My Mission</div>
+      <p class="quote">"To continuously improve my technical skills and build reliable, user-friendly software that creates real-world value."</p>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <div class="center reveal">
+    <div class="eyebrow" style="justify-content:center;">My journey</div>
+    <h2 class="heading-lg">Education</h2>
+  </div>
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-card">
+        <h4>Bachelor of Information and Communication Technology (Honours)</h4>
+        <div class="org">University of Vavuniya · Faculty of Technological Studies · Sri Lanka · Nov 2024 – Present</div>
+        <p class="text-soft" style="font-size:.88rem;">Relevant coursework and areas of study:</p>
+        <div class="tag-row">
+          <span class="tag">Programming</span>
+          <span class="tag">Object-Oriented Programming</span>
+          <span class="tag">Data Structures</span>
+          <span class="tag">Database Management Systems</span>
+          <span class="tag">Operating Systems</span>
+          <span class="tag">Web Development</span>
+          <span class="tag">Human-Computer Interaction</span>
+          <span class="tag">Software Development</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-card">
+        <h4>G.C.E. Advanced Level — Bio Technology</h4>
+        <div class="org">PL/Al-Hilal National College · 2020 – 2023</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="center reveal">
+    <div class="eyebrow" style="justify-content:center;">Technologies I work with</div>
+    <h2 class="heading-lg">My <span class="gradient-text">Skills</span></h2>
+  </div>
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <div class="skill-card-head">
+        <span class="skill-ic">💻</span>
+        <h4>Programming Languages</h4>
+      </div>
+      <div class="skill-bars">
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Python</span><span class="skill-level">Advanced</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:92%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Java</span><span class="skill-level">Advanced</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:88%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>C / C++</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:74%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>C#</span><span class="skill-level">Familiar</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:58%"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-head">
+        <span class="skill-ic">🌐</span>
+        <h4>Web Development</h4>
+      </div>
+      <div class="skill-bars">
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>HTML</span><span class="skill-level">Advanced</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:90%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>CSS</span><span class="skill-level">Advanced</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:88%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>JavaScript</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:76%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Bootstrap</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:78%"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-head">
+        <span class="skill-ic">🧩</span>
+        <h4>Software Development</h4>
+      </div>
+      <div class="skill-bars">
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>OOP</span><span class="skill-level">Advanced</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:85%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Data Structures</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:76%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Problem Solving</span><span class="skill-level">Advanced</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:90%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Software Development</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:78%"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-head">
+        <span class="skill-ic">🗄️</span>
+        <h4>Database</h4>
+      </div>
+      <div class="skill-bars">
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>SQL</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:75%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Database Management Systems</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:72%"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-head">
+        <span class="skill-ic">🛠️</span>
+        <h4>Tools & Platforms</h4>
+      </div>
+      <div class="skill-bars">
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Git & GitHub</span><span class="skill-level">Advanced</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:86%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>VS Code</span><span class="skill-level">Advanced</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:88%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Docker & Docker Hub</span><span class="skill-level">Familiar</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:55%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Figma & Canva</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:74%"></div></div></div>
+      </div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-head">
+        <span class="skill-ic">🎨</span>
+        <h4>UI / UX</h4>
+      </div>
+      <div class="skill-bars">
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Figma</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:76%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Wireframing</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:72%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>Interface Design</span><span class="skill-level">Proficient</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:74%"></div></div></div>
+        <div class="skill-bar-item"><div class="skill-bar-top"><span>User Experience Design</span><span class="skill-level">Familiar</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="--level:60%"></div></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="center reveal">
+    <div class="eyebrow" style="justify-content:center;">My work</div>
+    <h2 class="heading-lg">Featured <span class="gradient-text">Projects</span></h2>
+  </div>
+  <div class="proj-grid">
+
+    <div class="proj-card reveal">
+      <div class="proj-thumb" style="background:linear-gradient(135deg,#FF1493,#8A2BE2);"><span>🐍 Quiz App</span></div>
+      <div class="proj-body">
+        <h4>Simple Quiz App</h4>
+        <div class="proj-tool">Python</div>
+        <p class="desc">A beginner-friendly Python quiz application designed to practice programming fundamentals and create an interactive question-and-answer experience.</p>
+        <ul class="proj-feat">
+          <li>Multiple-choice questions</li>
+          <li>Instant feedback & score calculation</li>
+          <li>Randomized questions</li>
+          <li>Replay functionality</li>
+        </ul>
+        <div class="tag-row" style="margin-bottom:16px;">
+          <span class="tag">Functions</span><span class="tag">Loops</span><span class="tag">Dictionaries</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/AG-Rizna/SimpleQuizApp" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-thumb" style="background:linear-gradient(135deg,#8A2BE2,#B026FF);"><span>📚 Library App</span></div>
+      <div class="proj-body">
+        <h4>Library Management System</h4>
+        <div class="proj-tool">Java</div>
+        <p class="desc">A Java-based Library Management System developed to demonstrate object-oriented programming concepts and basic management of books and library records.</p>
+        <ul class="proj-feat">
+          <li>Book management with unique IDs</li>
+          <li>Title and author information</li>
+          <li>Object-oriented structure</li>
+          <li>Console-based interaction</li>
+        </ul>
+        <div class="tag-row" style="margin-bottom:16px;">
+          <span class="tag">OOP</span><span class="tag">ArrayList</span><span class="tag">Scanner</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/AG-Rizna/LibraryManagementSystem" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-thumb" style="background:linear-gradient(135deg,#FF2D95,#9B5CFF);"><span>🏔️ Gallery Site</span></div>
+      <div class="proj-body">
+        <h4>Adventure Gallery Website</h4>
+        <div class="proj-tool">HTML · CSS · JavaScript · Bootstrap</div>
+        <p class="desc">Designed and developed a responsive web-based gallery website for presenting adventure-related images through a user-friendly interface.</p>
+        <div class="tag-row" style="margin-bottom:16px;">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Bootstrap</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/AG-Rizna/Adventure-Gallery-Website" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-card reveal">
+      <div class="proj-thumb" style="background:linear-gradient(135deg,#B026FF,#FF1493);"><span>💳 Finance UI</span></div>
+      <div class="proj-body">
+        <h4>Financial Mobile App UI</h4>
+        <div class="proj-tool">Figma</div>
+        <p class="desc">Designed a modern and user-friendly financial mobile application interface using Figma, with a focus on usability and clean visual design.</p>
+        <div class="proj-links">
+          <a href="https://www.linkedin.com/posts/rizna-abdul-gafoor_hci-uiuxdesign-figma-activity-7426571741952516096-iYAf?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFuinNUBUi-AwWjJkHC-KcVi-c-XULSZ-4U" title="Add Figma URL">View Design →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="center reveal">
+    <div class="eyebrow" style="justify-content:center;">My experience</div>
+    <h2 class="heading-lg">Leadership & <span class="gradient-text">Community</span></h2>
+  </div>
+
+  <div style="margin-top:50px;">
+    <div class="exp-card reveal">
+      <div class="exp-head">
+        <div>
+          <h4>Mozilla Campus Club</h4>
+          <div class="org">University of Vavuniya</div>
+        </div>
+        <span class="exp-role">Secretary / EXCOM Member</span>
+      </div>
+      <ul class="exp-list">
+        <li>Supporting technology-focused events</li>
+        <li>Event planning and coordination</li>
+        <li>Team collaboration and participant communication</li>
+        <li>Preparing official documents and event materials</li>
+        <li>Supporting workshops and university technology initiatives</li>
+        <li>Working with executive committee members</li>
+      </ul>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-head">
+        <div>
+          <h4>IEEE Student Branch</h4>
+          <div class="org">University of Vavuniya</div>
+        </div>
+        <span class="exp-role">Student Activities & Events</span>
+      </div>
+      <ul class="exp-list">
+        <li>Participation in student activities and events</li>
+        <li>Contributing to technology events, workshops, and career-development activities</li>
+        <li>Supporting community initiatives alongside peers</li>
+      </ul>
+    </div>
+
+    <div class="exp-card reveal">
+      <div class="exp-head">
+        <div>
+          <h4>Docker Bootcamp 2026</h4>
+          <div class="org">Student technology initiative</div>
+        </div>
+        <span class="exp-role">Event Involvement</span>
+      </div>
+      <ul class="exp-list">
+        <li>Event coordination and workshop organization</li>
+        <li>Docker and DevOps exposure</li>
+        <li>Teamwork and participant coordination</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="section">
+  <div class="center reveal">
+    <div class="eyebrow" style="justify-content:center;">Learning & achievements</div>
+    <h2 class="heading-lg">Certificates</h2>
+  </div>
+  <div class="cert-grid">
+    <div class="cert-card reveal">
+      <h4>Introduction to GitHub & GitHub Actions</h4>
+      <div class="org">Microsoft Learn Student Ambassadors Workshop</div>
+      <div class="tag-row"><span class="tag">GitHub</span><span class="tag">DevOps</span></div>
+      <a class="cert-link" href="https://www.linkedin.com/posts/rizna-abdul-gafoor_microsoftstudentambassadors-microsoftlearn-activity-7483599760650620928-PrRI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFuinNUBUi-AwWjJkHC-KcVi-c-XULSZ-4U" target="_blank" rel="noopener">View Certificate →</a>
+    </div>
+    <div class="cert-card reveal">
+      <h4>Python for Beginners</h4>
+      <div class="org">Programming in Python · UOM CODL</div>
+      <div class="tag-row"><span class="tag">Programming</span></div>
+      <a class="cert-link" href="https://www.linkedin.com/posts/rizna-abdul-gafoor_python-programming-learning-activity-7445747458640535552-WXi0?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFuinNUBUi-AwWjJkHC-KcVi-c-XULSZ-4U" target="_blank" rel="noopener">View Certificate →</a>
+    </div>
+    <div class="cert-card reveal">
+      <h4>Web Design for Beginners</h4>
+      <div class="org">Online Certification</div>
+      <div class="tag-row"><span class="tag">Web Development</span></div>
+      <a class="cert-link" href="https://www.linkedin.com/posts/rizna-abdul-gafoor_webdesign-html-css-activity-7446776040892563456-EkUx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFuinNUBUi-AwWjJkHC-KcVi-c-XULSZ-4U" target="_blank" rel="noopener">View Certificate →</a>
+    </div>
+    <div class="cert-card reveal">
+      <h4>Data Science & Analytics</h4>
+      <div class="org">HP LIFE</div>
+      <div class="tag-row"><span class="tag">Data Science</span></div>
+      <a class="cert-link" href="https://www.linkedin.com/posts/rizna-abdul-gafoor_datascience-dataanalytics-hplife-activity-7449884087772942337-1T9Q?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFuinNUBUi-AwWjJkHC-KcVi-c-XULSZ-4U" target="_blank" rel="noopener">View Certificate →</a>
+    </div>
+    <div class="cert-card reveal">
+      <h4>30 Days Masterclass in Data Analytics</h4>
+      <div class="org">NoviTech R&D</div>
+      <div class="tag-row"><span class="tag">Data Analytics</span></div>
+      <a class="cert-link" href="https://www.linkedin.com/posts/rizna-abdul-gafoor_dataanalytics-datascience-learning-activity-7470765800551915520-0V29?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFuinNUBUi-AwWjJkHC-KcVi-c-XULSZ-4U" target="_blank" rel="noopener">View Certificate →</a>
+    </div>
+    <div class="cert-card reveal">
+      <h4>eLibraryUSA Online Training</h4>
+      <div class="org">University of Vavuniya</div>
+      <div class="tag-row"><span class="tag">Research Skills</span></div>
+      <a class="cert-link" href="https://www.linkedin.com/posts/rizna-abdul-gafoor_elibraryusa-usbus-americanspaces-activity-7467238215108747265-7KFY?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFuinNUBUi-AwWjJkHC-KcVi-c-XULSZ-4U" target="_blank" rel="noopener">View Certificate →</a>
+    </div>
+    <div class="cert-card reveal">
+      <h4>Computer System and Hardware — With Distinction</h4>
+      <div class="org">Orion International Campus · 2023</div>
+      <div class="tag-row"><span class="tag">Hardware</span></div>
+      <a class="cert-link" href="https://www.linkedin.com/posts/rizna-abdul-gafoor_ict-computerhardware-msoffice-activity-7411802598468562945-nlK2?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFuinNUBUi-AwWjJkHC-KcVi-c-XULSZ-4U" target="_blank" rel="noopener">View Certificate →</a>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section class="section">
+  <div class="center reveal">
+    <div class="eyebrow" style="justify-content:center;">Beyond coding</div>
+    <h2 class="heading-lg">Events & <span class="gradient-text">Community</span></h2>
+  </div>
+  <div class="event-grid">
+    <div class="event-card reveal">
+      <h4>Mozilla Campus Club Activities</h4>
+      <div class="event-meta">Role: Secretary / EXCOM Member</div>
+      <p>Ongoing involvement in organizing and supporting technology-focused events, workshops, and community initiatives at the University of Vavuniya.</p>
+    </div>
+    <div class="event-card reveal">
+      <h4>Docker Bootcamp 2026</h4>
+      <div class="event-meta">Role: Event Participant / Coordinator Support</div>
+      <p>Hands-on exposure to Docker and DevOps practices through a structured bootcamp, combined with event coordination support.</p>
+    </div>
+    <div class="event-card reveal">
+      <h4>Technology Workshops</h4>
+      <div class="event-meta">University of Vavuniya</div>
+      <p>Participation in career development activities and technology workshops focused on practical skill-building.</p>
+    </div>
+    <div class="event-card reveal">
+      <h4>Community Initiatives</h4>
+      <div class="event-meta">Faculty of Technological Studies</div>
+      <p>Contributing to student leadership and event coordination efforts within the university's technology community.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GITHUB -->
+<section class="section">
+  <div class="github-box reveal">
+    <div class="eyebrow" style="justify-content:center;">Building. Learning. Improving.</div>
+    <h2 class="heading-lg" style="margin-bottom:14px;">On <span class="gradient-text">GitHub</span></h2>
+    <p class="text-soft" style="max-width:520px; margin:0 auto 26px;">Featured repositories and project code will be linked here as they're published.</p>
+    <a href="https://github.com/AG-Rizna" target="_blank" rel="noopener" class="btn btn-ghost">VIEW MORE ON GITHUB →</a>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="section" style="padding-top:0;">
+  <div class="resume-box reveal">
+    <div class="resume-grid">
+      <div class="resume-info">
+        <div class="eyebrow">Full journey, one document</div>
+        <h3>Want to know more<br>about my journey?</h3>
+        <p>Explore my education, technical skills, projects, certifications, and experience in more detail — everything summarized in one place.</p>
+        <div class="hero-ctas">
+          <a href="C:\Users\2022icts120\Desktop\My_portfolio-main\My_portfolio-main\portfolio\Rizna_Abdul_Gafoor_CV.pdf" target="_blank" rel="noopener" class="btn btn-ghost">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8Z"/><circle cx="12" cy="12" r="3"/></svg>
+            VIEW RESUME
+          </a>
+          <a href="C:\Users\2022icts120\Desktop\My_portfolio-main\My_portfolio-main\portfolio\Rizna_Abdul_Gafoor_CV.pdf" download="Rizna_Abdul_Gafoor_CV.pdf" class="btn btn-primary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            DOWNLOAD RESUME
+          </a>
+          <a href="https://www.linkedin.com/in/rizna-abdul-gafoor" target="_blank" rel="noopener" class="btn btn-ghost">VIEW LINKEDIN</a>
+        </div>
+      </div>
+
+      <div class="resume-preview">
+        <div class="resume-card">
+          <div class="resume-card-top">
+            <div class="resume-avatar">AGR</div>
+            <div>
+              <div class="resume-name">Abdul Gafoor Rizna</div>
+              <div class="resume-role">BICT (Hons) Undergraduate</div>
+            </div>
+          </div>
+          <ul class="resume-list">
+            <li><span>🎓</span> Education — University of Vavuniya</li>
+            <li><span>🧠</span> Skills — Python, Java, Web, UI/UX</li>
+            <li><span>💻</span> Projects — 4 featured builds</li>
+            <li><span>📜</span> Certificates — 7 completed</li>
+            <li><span>🤝</span> Leadership — Mozilla, IEEE</li>
+          </ul>
+          <div class="resume-card-foot">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/></svg>
+            Rizna_Abdul_Gafoor_CV.pdf
+          </div>
+        </div>
+        <div class="sakura-deco" style="top:-14px; right:10px;">🌸</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="center reveal">
+    <div class="eyebrow" style="justify-content:center;">Get in touch</div>
+    <h2 class="heading-lg">Let's Build Something <span class="gradient-text">Together</span></h2>
+    <p class="text-soft" style="max-width:520px; margin:14px auto 0;">I'm always interested in learning, collaborating, and working on meaningful technology projects.</p>
+  </div>
+
+  <div class="contact-grid">
+    <div class="reveal">
+      <a class="contact-item" href="mailto:riznaag2003@gmail.com">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></div>
+        <div><div class="lbl">Email</div><div class="val">riznaag2003@gmail.com</div></div>
+      </a>
+      <a class="contact-item" href="https://www.linkedin.com/in/rizna-abdul-gafoor" target="_blank" rel="noopener">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A6 6 0 0 1 16 8Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+        <div><div class="lbl">LinkedIn</div><div class="val">rizna-abdul-gafoor</div></div>
+      </a>
+      <a class="contact-item" href="https://github.com/AG-Rizna" target="_blank" rel="noopener">
+        <div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></div>
+        <div><div class="lbl">GitHub</div><div class="val">AG-Rizna</div></div>
+      </a>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm">
+      <div class="form-grid">
+        <div class="field"><label>Name</label><input type="text" name="name" required placeholder="Your name" /></div>
+        <div class="field"><label>Email</label><input type="email" name="email" required placeholder="you@email.com" /></div>
+        <div class="field full"><label>Subject</label><input type="text" name="subject" placeholder="What's this about?" /></div>
+        <div class="field full"><label>Message</label><textarea name="message" required placeholder="Tell me about your project or idea..."></textarea></div>
+      </div>
+      <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="logo">A.G. Rizna</div>
+  <div class="role">Aspiring Software Engineer</div>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-social">
+    <a class="social-icon" href="https://www.linkedin.com/in/rizna-abdul-gafoor" target="_blank" rel="noopener" title="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V8h4v1.5A6 6 0 0 1 16 8Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+    <a class="social-icon" href="https://github.com/AG-Rizna" target="_blank" rel="noopener" title="GitHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a>
+    <a class="social-icon" href="mailto:riznaag2003@gmail.com" title="Email"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></a>
+  </div>
+  <div class="copyright">© 2026 A.G. Rizna. Built with passion for technology.</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
